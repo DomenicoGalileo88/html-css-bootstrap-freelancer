@@ -7,3 +7,11 @@
     width: 200px;
     height: 25px;
 }
+
+.mx_6{
+    margin: 0 6rem;
+}
+
+.mt_4{
+    margin-top: 4rem;
+}
