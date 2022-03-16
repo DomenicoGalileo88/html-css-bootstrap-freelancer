@@ -19,24 +19,30 @@
 <body class="debug">
   <header class="bg_free_secondary " id="site_header">
     <div id="nav-section">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">
-          <a id="ms_navbar-written-logo" class="navbar-brand text-uppercase fw-bold" href="#">Start bootstrap</a>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarsExample04">
-            <ul class="navbar-nav d-flex flex-grow-1 justify-content-end text-uppercase me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active fw-bold" aria-current="page" href="#">portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active fw-bold" href="#">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active fw-bold" href="#" tabindex="-1">Contact</a>
-              </li>
-            </ul>
+      <div id="nav-section">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container">
+            <a id="ms_navbar-written-logo" class="navbar-brand text-uppercase fw-bold" href="#">Start bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+              aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarsExample04">
+              <ul class="navbar-nav d-flex flex-grow-1 justify-content-end text-uppercase me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="#" tabindex="-1">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
   </header>
   <!-- /#site_header -->
@@ -67,29 +73,29 @@
         <span class="line m-4 d-inline-block bg-black"></span>
       </div>
 
-        <div class="container">
-          <div class="row gy-4 mt-2 mb-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col ">
-              <img class="img-fluid rounded_1" src="./assets/img/cabin.png" alt="">
-            </div>
-            <div class="col ">
-              <img class="img-fluid rounded_1" src="./assets/img/cake.png" alt="">
-            </div>
-            <div class="col ">
-              <img class="img-fluid rounded_1" src="./assets/img/circus.png" alt="">
-            </div>
-            <div class="col ">
-              <img class="img-fluid rounded_1" src="./assets/img/game.png" alt="">
-            </div>
-            <div class="col ">
-              <img class="img-fluid rounded_1" src="./assets/img/safe.png" alt="">
-            </div>
-            <div class="col ">
-              <img class="img-fluid rounded_1" src="./assets/img/submarine.png" alt="">
-            </div>
+      <div class="container">
+        <div class="row gy-4 mt-2 mb-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col ">
+            <img class="img-fluid rounded_1" src="./assets/img/cabin.png" alt="">
+          </div>
+          <div class="col ">
+            <img class="img-fluid rounded_1" src="./assets/img/cake.png" alt="">
+          </div>
+          <div class="col ">
+            <img class="img-fluid rounded_1" src="./assets/img/circus.png" alt="">
+          </div>
+          <div class="col ">
+            <img class="img-fluid rounded_1" src="./assets/img/game.png" alt="">
+          </div>
+          <div class="col ">
+            <img class="img-fluid rounded_1" src="./assets/img/safe.png" alt="">
+          </div>
+          <div class="col ">
+            <img class="img-fluid rounded_1" src="./assets/img/submarine.png" alt="">
           </div>
         </div>
-     
+      </div>
+
     </section>
 
 
@@ -103,12 +109,13 @@
           <span class="line m-4 d-inline-block bg-white"></span>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 mt-2 px_6 gy-4 justify-content-center text-white">                   
+        <div class="row row-cols-1 row-cols-md-2 mt-2 px_6 gy-4 justify-content-center text-white">
           <div class="col">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
             ad nostrum ab aperiam quisquam dignissimos rem perspiciatis
             magnam? Adipisci similique mollitia, ea quia odit iure molestiae
-            atque consequatur eos error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam quae nemo amet corporis suscipit?
+            atque consequatur eos error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam quae
+            nemo amet corporis suscipit?
           </div>
           <div class="col">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
@@ -119,52 +126,97 @@
         </div>
         <div class="btn text-white border-white mt-4">
           <i class="fa-solid fa-download"></i>
-         <span>Download</span> 
+          <span>Download</span>
         </div>
       </div>
     </section>
 
-    <section class="contact d-flex flex-column align-items-center my-5">
-      <h2 class="text-uppercase display-3 fw-normal ">contact me</h2>
-      <div class="star d-flex align-items-center justify-content-center">
-        <span class="line m-4 d-inline-block bg-black"></span>
-        <span class="star_icon"><i class="fa-solid fa-star "></i></span>
-        <span class="line m-4 d-inline-block bg-black"></span>
+    <section class="contact my-5">
+      <div class="container px_6 d-flex flex-column">
+        <h2 class="text-uppercase text-center display-3 fw-normal ">contact me</h2>
+        <div class="star d-flex align-items-center justify-content-center">
+          <span class="line m-4 d-inline-block bg-black"></span>
+          <span class="star_icon"><i class="fa-solid fa-star "></i></span>
+          <span class="line m-4 d-inline-block bg-black"></span>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="text" class="form_control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+          <input type="email" class="form_control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+          <input type="number" class="form_control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form_control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="btn bg_free_primary text-white align-self-start">
+          Send
+        </button>
       </div>
 
-      
     </section>
   </main>
   <!-- /#site_main -->
 
-  <footer class="container-fluid" id="site_footer">
-    <div class="row justify-content-center bg-black text-white">
-      <div class="col-12 col-md-9">
-        <div class="row justify-content-center my-4">
-          <div class="col-12 col-md-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-            dicta, nihil at aliquam dolorem harum ut maiores. Ab id aut ea rem
-            pariatur fugit saepe soluta quae, consequatur quam eum.
+  <footer class="bg_free_footer text-white" id="site_footer">
+    <div class="top py-5">
+      <div class="container">
+        <div class="row g-5 row-cols-1 row-cols-md-4 justify-content-center">
+
+          <div class="col text-center">
+            <h4 class="text-uppercase">Location</h4>
+            <p class="lead">
+              2215 John Daniel Clark, MO
+              54243
+            </p>
           </div>
-          <div class="col-12 col-md-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-            dicta, nihil at aliquam dolorem harum ut maiores. Ab id aut ea rem
-            pariatur fugit saepe soluta quae, consequatur quam eum.
-          </div>
-          <div class="col-12 col-md-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-            dicta, nihil at aliquam dolorem harum ut maiores. Ab id aut ea rem
-            pariatur fugit saepe soluta quae, consequatur quam eum.
-          </div>
+          
+            <div class="col text-center">
+              <h4 class="text-uppercase">around the web</h4>
+              <div class="container_icon d-flex justify-content-center">
+                <div class="icon_footer border border-light rounded-circle px-3 py-2 m-1">
+                  <i class="fa-brands fa-facebook-f fa-md"></i>
+                </div>
+                <div class="icon_footer border border-light rounded-circle py-2 px-3 m-1">
+                  <i class="fa-brands fa-google-plus-g fa-md"></i>
+                </div>
+                <div class="icon_footer border border-light rounded-circle py-2 px-3 m-1">
+                  <i class="fa-brands fa-twitter fa-md"></i>              
+                </div>
+                <div class="icon_footer border border-light rounded-circle px-3 py-2 m-1">
+                  <i class="fa-brands fa-linkedin-in fa-md"></i>
+                </div>
+              </div>
+            </div>
+          
+          
+            <div class="col text-center">
+              <h4 class="text-uppercase">about freelancer</h4>
+              <p class="lead">
+                Freelance i8s a free to use, open source
+                Bootstrap theme created by
+                <span class="text-success">Start Bootstrap</span>.
+              </p>
+            </div>
+          
         </div>
+
       </div>
+
     </div>
 
-    <div class="row justify-content-center py-4 bg-secondary">
-      <div class="col-12 col-md-4 d-flex justify-content-center">
-        Lorem, ipsum.
-      </div>
+    <div class="bottom bg_free_secondary text-center">
+      Copiright <i class="fa-regular fa-copyright"></i> Your Website 2019
     </div>
+
   </footer>
   <!-- /#site_footer -->
 
