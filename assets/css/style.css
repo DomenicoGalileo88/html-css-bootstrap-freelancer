@@ -57,6 +57,11 @@
   margin-top: 4rem;
 }
 
+.px_6{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .debug .card_img {
   width: 100%;
   aspect-ratio: 1.5 / 1;
