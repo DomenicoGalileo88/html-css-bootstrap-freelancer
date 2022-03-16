@@ -25,14 +25,30 @@
     list-style: none;
 }
 
+#site_main i{
+  min-width:30px;
+  min-height: 30px;
+  color: white;
+}
+
+.jumbotron .star{
+  width: 100%;
+  height: 20px;
+}
+
+.jumbotron .line{
+  width: 170px;
+  height: 3px;
+}
+
+.jumbotron .star_icon{
+  font-size: 25px;
+}
+
+
 .debug .img_title {
   width: 100px;
   height: 100px;
-}
-
-.debug .star {
-  width: 200px;
-  height: 25px;
 }
 
 .mx_6 {
